@@ -1,4 +1,4 @@
-package clientPackage;
+package activite13.clientPackage;
 
 import java.io.*;
 import java.net.*;

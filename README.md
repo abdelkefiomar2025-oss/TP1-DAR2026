@@ -4,6 +4,8 @@ Nom Prénom - LSI3
 
 ## Activité 1-1 : Première connexion Client/Serveur
 
+Code source : `src/activite11/`
+
 ### Vérification de Git
 J'ai vérifié que Git est installé avec la commande `git --version`.
 
@@ -30,6 +32,8 @@ Test en remplaçant localhost par l'adresse IP :
 
 ## Activité 1-2 : Service de calculatrice
 
+Code source : `src/activite12/`
+
 Le client envoie un entier x au serveur qui renvoie x * 5. J'utilise DataInputStream et DataOutputStream pour bien gérer les entiers négatifs. Quand le client saisit 0, la communication s'arrête et les sockets sont fermés des deux côtés.
 
 - Test avec un entier positif :
@@ -46,6 +50,9 @@ Le client envoie un entier x au serveur qui renvoie x * 5. J'utilise DataInputSt
 ## Activité 1-3 : Amélioration
 
 ### Connexion entre deux machines
+
+Code source : `src/activite13/`
+
 Le serveur est lancé sur une machine (IP : ...) et le client sur une autre machine du même réseau. J'ai utilisé InetAddress et InetSocketAddress.
 
 

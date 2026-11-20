@@ -1,9 +1,9 @@
-package serverPackage;
+package activite13.serverPackage;
 
 import java.io.*;
 import java.net.*;
 
-public class server {
+public class Server {
     public static void main(String[] args) {
         String ip = "192.168.1.140";
         int port = 1234;
