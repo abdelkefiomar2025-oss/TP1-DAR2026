@@ -1,6 +1,6 @@
 # TP1-DAR2026 - Sockets TCP en mode connecté
 
-Nom Prénom - LSI3
+Abdelkefi Omar - LSI3
 
 ## Activité 1-1 : Première connexion Client/Serveur
 
